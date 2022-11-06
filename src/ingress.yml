@@ -14,4 +14,4 @@ spec:
               service:
                 name: will-app-service
                 port:
-                  numbre: 80
+                  number: 80

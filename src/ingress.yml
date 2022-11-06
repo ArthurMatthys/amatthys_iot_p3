@@ -8,9 +8,10 @@ spec:
   rules:
     - http:
         paths:
-          - path: "/"
+          - path: /
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: will-app-service
                 port:
-                  name: http
+                  numbre: 80
